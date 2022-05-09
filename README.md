@@ -15,4 +15,11 @@ KAS 시작해보기
 1. KAS 회원가입 <br> 
 KAS 홈페이지 --> https://console.klaytnapi.com/ko/auth/login
 2. KAS Dashboard 모습 <br> 
-<img src="./image/1. KAS Dashboard.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img><br/>
+<img src="./image/1. KAS Dashboard.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br><br>
+3. 우선 KAS를 이용하기 위해서는 **Access Key**가 있어야 한다. Security --> Credential에서 AccessKey 생성을 클릭한다. <br> 
+<img src="./image/2. Access Key Create.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br>
+Access Key는 한번 잊어버리면 **복구가 불가능**하기 때문에 AccessKey 다운로드를 클릭하여 보관해두자. (JSON 형식의 파일이다.)
+<img src="./image/3. Access Key Created.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br><br>
+
+
+
