@@ -15,4 +15,4 @@ KAS 시작해보기
 1. KAS 회원가입 <br> 
 KAS 홈페이지 --> https://console.klaytnapi.com/ko/auth/login
 2. KAS Dashboard 모습 <br> 
-<img src="./1. KAS Dashboard.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img><br/>
+<img src="./image/1. KAS Dashboard.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img><br/>
