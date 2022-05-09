@@ -13,13 +13,21 @@ KAS Intro
 KAS 시작해보기
 =============
 1. KAS 회원가입 <br> 
-KAS 홈페이지 --> https://console.klaytnapi.com/ko/auth/login
+KAS 홈페이지 --> https://console.klaytnapi.com/ko/auth/login <br><br>
 2. KAS Dashboard 모습 <br> 
 <img src="./image/1. KAS Dashboard.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br><br>
 3. 우선 KAS를 이용하기 위해서는 **Access Key**가 있어야 한다. Security --> Credential에서 AccessKey 생성을 클릭한다. <br> 
 <img src="./image/2. Access Key Create.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br>
 Access Key는 한번 잊어버리면 **복구가 불가능**하기 때문에 AccessKey 다운로드를 클릭하여 보관해두자. (JSON 형식의 파일이다.)
-<img src="./image/3. Access Key Created.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br><br>
+<img src="./image/3. Access Key Created.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br><br><br>
+
+KAS Wallet API
+=============
+1. Wallet API를 사용하기 위해서는 **Klaytn Account Pool**(계정 저장소)를 생성해야 한다. Service --> Wallet --> Account Pools에서 Account Pool 생성을 클릭한다. 그리고 Account Pool 이름을 입력해준다. <br>
+<img src="./image/4. Wallet Account Pools.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br>
+그러면 이와 같이 KRN(KAS Resource Name)과 Resource ID가 나온다. <br><br>
+2. Dashboard에서 Account를 생성할 수 있다. Account 생성 버튼을 클릭한다. 그러면 아래와 같이 Address와 생성, 수정된 시각이 표시된다. <br>
+<img src="./image/5. Account Pool Account Create.png" width="100%" height="100%" title="KAS_Dashboard" alt="KAS_Dashboard"></img> <br><br>
 
 
 
