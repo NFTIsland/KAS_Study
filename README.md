@@ -20,4 +20,6 @@ KAS 홈페이지 --> https://console.klaytnapi.com/ko/auth/login <br><br>
 3. 우선 KAS를 이용하기 위해서는 **Access Key**가 있어야 한다. Security --> Credential에서 AccessKey 생성을 클릭한다. <br> 
 <img src="./image/2. Access Key Create.png" width="100%" height="100%" title="Access_Key_Create" alt="Access_Key_Create"></img> <br>
 Access Key는 한번 잊어버리면 **복구가 불가능**하기 때문에 AccessKey 다운로드를 클릭하여 보관해두자. (JSON 형식의 파일이다.)
-<img src="./image/3. Access Key Created.png" width="100%" height="100%" title="Access_Key_Created" alt="Access_Key_Created"></img>
+<img src="./image/3. Access Key Created.png" width="100%" height="100%" title="Access_Key_Created" alt="Access_Key_Created"></img><br><br>
+4. 테스트용 네트워크를 사용해야 하므로 Dashboard에 있는 Network를 **Baobab**으로 바꾸도록 하자. **Baobab**은 **Klaytn 테스트넷**이며 **Cypress**는 **Klaytn 메인넷**이다. 
+<img src="./image/4. Network Baobab.png" width="100%" height="100%" title="Network_Baobab" alt="Network_Baobab"></img>
