@@ -27,4 +27,41 @@ KAS 계정 목록 조회
 Username, Password, 그리고 x-chain-id를 입력할 수 있다. Username에는 accessKeyId, Password에는 secretAccessKey, 그리고 x-chain-id에는 1001을 입력한다. 다 입력했다면 아래에 있는 Send API Request를 클릭해보자. 그러면 아래와 같이 accessKeyId, secretAccessKey, x-chain-id에 해당하는 계정 목록이 출력되는 것을 확인할 수 있다. <br> 
 <img src="./image/11. Use Wallet API 2.png" width="100%" height="100%" title="Use_Wallet_API_2" alt="Use_Wallet_API_2"></img> <br><br>
 
-6. 
+6. 이번에는 **Node.js**에서 API를 호출해보자. 오른쪽 아래에 있는 **Request/Sample**에서 Node --> Native를 클릭하면 그 아래에 sample code가 나온다.
+<img src="./image/12. Use Wallet API 3.png" width="100%" height="100%" title="Use_Wallet_API_3" alt="Use_Wallet_API_3"></img> <br><br>
+아래는 그 sample code이다.
+
+```js
+const http = require("https");
+
+const options = {
+  "method": "GET",
+  "hostname": "wallet-api.klaytnapi.com",
+  "port": null,
+  "path": "/v2/account",
+  "headers": {
+    "Content-Type": "application/json",
+    "x-chain-id": "1001",
+    "Authorization": "Basic "
+  }
+};
+
+const req = http.request(options, function (res) {
+  const chunks = [];
+
+  res.on("data", function (chunk) {
+    chunks.push(chunk);
+  });
+
+  res.on("end", function () {
+    const body = Buffer.concat(chunks);
+    console.log(body.toString());
+  });
+});
+
+req.end();
+```
+
+sample code를 .js 파일에 입력하고 cmd 창에서 node (파일이름).js를 입력하면 앞과 마찬가지의 결과를 얻을 수 있다.
+<img src="./image/13. cmd api.png" width="100%" height="100%" title="cmd_api" alt="cmd_api"></img> <br><br>
+
